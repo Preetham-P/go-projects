@@ -62,6 +62,7 @@ func deleteMovie(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+// Create new movie
 func createMovie(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
